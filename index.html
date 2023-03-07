@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="main_container">
+      <h2 id="location_name">Tampere</h2>
+      <h1 id="current_temp">Lämptöila</h1>
+
+      <div id="weather_info">
+        <img src="/images/wind.png" class="logos" />
+        <h3 id="current_wind_speed">wind speed</h3>
+        <img src="/images/cloud.png" class="logos">
+        <h3 id="current_cloud_coverage">cloud coverage</h3>
+        <img src="/images/humidity.png" class="logos">
+        <h3 id="relative_humidity">humidity</h3>
+      </div>
+      <div id="weather_desc">kuvaus säästä</div>
+      <div id="upcoming_weather">
+        <span class="card" id="card1">
+          <div id="time1">Time</div>
+          <div id="temp1">temp</div>
+          <div id="desc1">desc</div>
+        </span>
+        <span class="card" id="card2">
+          <div id="time2">Time</div>
+          <div id="temp2">temp</div>
+          <div id="desc2">desc</div>
+        </span>
+        <span class="card" id="card3">
+          <div id="time3">Time</div>
+          <div id="temp3">temp</div>
+          <div id="desc3">desc</div>
+        </span>
+        <span class="card" id="card4">
+          <div id="time4">Time</div>
+          <div id="temp4">temp</div>
+          <div id="desc4">desc</div>
+        </span>
+        <span class="card" id="card5">
+          <div id="time5">Time</div>
+          <div id="temp5">temp</div>
+          <div id="desc5">desc</div>
+        </span>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
